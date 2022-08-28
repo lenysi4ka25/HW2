@@ -4,9 +4,9 @@ public class Main {
         int a = 5;
         byte b = 15;
         short c = 25;
-        long d = 30;
-        float e = 45;
-        double f = 55;
+        long d = 30_456_756_792L;
+        float e = 4.59735F;
+        double f = 5.5;
         System.out.println("Значение переменной a с типом int равно " + a);
         System.out.println("Значение переменной b с типом byte равно " + b);
         System.out.println("Значение переменной c с типом short равно " + c);
@@ -15,11 +15,11 @@ public class Main {
         System.out.println("Значение переменной f с типом double равно " + f);
         System.out.println();
         System.out.println("Задача 2:");
-        float A = (float) 27.12;
-        long B = 987678965549L;
+        float A = 27.12F;
+        long B = 987_678_965_549L;
         double C = 2.786;
-        boolean D = A > 30;
-        int E = 569;
+        boolean D = false;
+        char E = 569;
         short F = - 159;
         int G = 27897;
         byte J = 67;
